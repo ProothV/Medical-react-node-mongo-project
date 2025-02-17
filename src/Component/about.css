@@ -1,0 +1,28 @@
+/* src/styles/about.css */
+
+.info-section {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+  }
+  
+  .features-section .feature-box {
+    border-left: 5px solid #007bff;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .features-section .feature-box:nth-child(2) {
+    border-left-color: #28a745;
+  }
+  
+  .features-section .feature-box:nth-child(3) {
+    border-left-color: #ffc107;
+  }
+  
+  .text-center button {
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  

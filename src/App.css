@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,63 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.carousel-container {
+  height: 80vh;
+  position: relative;
+}
+
+.carousel-img {
+  height: 80vh;
+  object-fit: cover;
+}
+
+.overlay-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 80%;
+}
+
+.overlay-content h1 {
+  font-size: 2.5rem;
+}
+
+.overlay-content p {
+  font-size: 1.2rem;
+}
+
+
+/* src/styles/medical.css */
+.hover-effect {
+  transition: transform 0.3s ease-in-out;
+}
+
+.hover-effect:hover {
+  transform: scale(1.05);
+}
+
+.jumbotron {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* src/styles/upload.css */
+.upload-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.file-input {
+  border: 2px dashed #007bff;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.file-input:hover {
+  background-color: #f8f9fa;
 }

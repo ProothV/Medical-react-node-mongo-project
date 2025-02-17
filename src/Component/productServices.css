@@ -1,0 +1,64 @@
+.container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .products-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    background: #f9f9f9;
+    transition: 0.3s;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+    background: #e6f7ff;
+  }
+  
+  .product-card img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .order-btn {
+    background: green;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .services-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+  
+  .service-card {
+    background: #ffefc5;
+    padding: 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  
+  .service-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .get-btn {
+    background: blue;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
